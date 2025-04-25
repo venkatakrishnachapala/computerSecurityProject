@@ -1,0 +1,2001 @@
+payload,attack_type
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection
+<script>alert('XSS1')</script>,Reflected XSS
+<img src=x onerror=alert('XSS2')>,Reflected XSS
+<svg/onload=alert('XSS3')>,Reflected XSS
+<body onload=alert('XSS4')>,Reflected XSS
+"<iframe src='javascript:alert(""XSS5"")'></iframe>",Reflected XSS
+"<script>localStorage.setItem('x','StoredXSS')</script>",Stored XSS
+"<div style=""background:url(javascript:alert('StoredXSS'))"">",Stored XSS
+<audio src onerror=alert('StoredXSS')>,Stored XSS
+<video><source onerror=alert('StoredXSS')></video>,Stored XSS
+<marquee onstart=alert('StoredXSS')>,Stored XSS
+<b>BoldText</b>,HTML Injection
+<h1>Injected Heading</h1>,HTML Injection
+<input type='text' value='Injected'>,HTML Injection
+<a href='http://example.com'>ClickMe</a>,HTML Injection
+<table><tr><td>Data</td></tr></table>,HTML Injection
+' OR '1'='1,SQL Injection
+'; DROP TABLE users; --,SQL Injection
+admin' --,SQL Injection
+' OR 'a'='a,SQL Injection
+"' UNION SELECT NULL, NULL, NULL --",SQL Injection

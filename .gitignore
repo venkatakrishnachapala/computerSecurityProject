@@ -1,0 +1,17 @@
+docker/doctor/*
+docker/hospital/*
+docker/hostel/*
+docker/userlogin/*
+docker/cmsms/*
+docker/joomla/*
+docker/mybb/*
+docker/opencart/*
+docker/piwigo/*
+docker/wordpress/*
+
+blackwidow/logs/*
+bw/*
+output/*
+cookies/*
+
+.DS_Store
